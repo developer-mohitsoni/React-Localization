@@ -32,7 +32,13 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">{t("viteReact")}</p>
+      <div className="div1">
+        <p className="read-the-docs">{t("viteReact")}</p>
+        <p>{t("direction.right")}</p>
+      </div>
+      <div className="div2">
+        <p>{t("correctness.right")}</p>
+      </div>
     </>
   );
 }

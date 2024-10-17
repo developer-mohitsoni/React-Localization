@@ -8,11 +8,18 @@ i18n.use(initReactI18next).init({
     en: {
       translation: {
         viteReact: "Click on the Vite and React logos to learn more",
+        right: "Right",
       },
     },
     pt: {
       translation: {
         viteReact: "Clique nos logotipos Vite e React para saber mais",
+        direction: {
+          right: "Direita",
+        },
+        correctness: {
+          right: "Certo",
+        },
       },
     },
     es: {
